@@ -19,4 +19,15 @@ toc = time.time()
 print(c)
 print("This took:" + str((toc - tic) * 1000) + "ms")
 
+d = np.array([[50, 0, 4, 20],
+             [1.2, 104, 58, 2.0],
+             [1.3, 138, 99, .9]])
+print(d)
+
+cal = d.sum(axis=0)
+print(cal)
+
+percentage = 100 * d/cal.reshape(1, 4)
+print(percentage)
+
 
