@@ -70,10 +70,10 @@ import time
 
 # print(a)
 
-# a=np.random.randn(3,3)
-# b=np.random.randn(2,1) 
-# c=a+b
-# print(c.shape())
+a=np.random.randn(3,3)
+b=np.random.randn(2,1) 
+c=a+b
+print(c.shape())
 
 a = np.random.randn(3, 4)
 b = np.random.randn(4,1)
